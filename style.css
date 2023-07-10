@@ -52,13 +52,7 @@
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
-   background:transparent;
-    border: .2rem solid var(--main-color);
-    border-radius: 50%;
-    font-size: 2rem;
-    color: var(--main-color);
-    margin: 3rem 1.5rem 3rem 0;
-    transition: .5s ease;
+   transition: .2s ease;
 }
 .navbar a:hover,
 .navbar a.active{
