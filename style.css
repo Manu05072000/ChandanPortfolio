@@ -283,7 +283,7 @@ width: 100%;
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   nav li {
