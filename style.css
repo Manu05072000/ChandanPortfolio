@@ -266,34 +266,4 @@ width: 100%;
     text-align: center;
     line-height: 1.2;
     }
-/*media Queries*/
-@media(max-width:991px){
-    html{
-        font-size:55%;
-        }
-    .header{
-        padding: 2rem;
-    }
-    section{
-        padding: 2rem 9%;
-    }
-    }
-   
-    @media(max-width:450px){
-        html{
-            font-size:50%;
-            }
-            .heading{
-                font-size: 2.5rem;
 
-            }
-            .footer{
-                text-align: center;
-            }
-        }
-    .credit{
-        height: 200%;
-        padding-top: 25px;
-        text-align: right;
-        
-    }
