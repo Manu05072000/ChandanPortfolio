@@ -47,7 +47,17 @@
     font-weight: 600;
     cursor: default;
 }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
 
+nav li {
+  display: inline;
+}
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);
@@ -267,3 +277,17 @@ width: 100%;
     line-height: 1.2;
     }
 
+@media (max-width: 767px) {
+  nav {
+    padding: 5px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
