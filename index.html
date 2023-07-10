@@ -18,7 +18,7 @@
     <!--header design starts-->
     <header class="header">
         <a href="#"class="logo">Portfolio</a>
-<!--         <i class="bx bx-menu" id="menu-icon"></i>-->
+        <i class="bx bx-menu" id="menu-icon"></i>
          
          <nav class="navbar">
         <a href="#home" class="active">Home</a>
@@ -37,8 +37,8 @@
     background-repeat: no-repeat, repeat;padding: 15px;" >
         <div class="home-content" >
             <h3>Hello, It's Me</h3>
-            <h1>Chandan Kumar.M </h1>
-            <h3>And I'm a <span>Software Developer</span></h3>
+            <h1>Chandan.M </h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
             <p >Writing code using programming languages, build software components, and test their designs</p>
             <div class="social-media">
                 <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -124,11 +124,25 @@
 <section class="contact" id="contact">
    <h2 class=heading>Contact<span>Me!</span></h2>
     <form action="#">
-        
+        <div class="input-box">
+            <input type="text"placeholder="Full Name">
+            <input type="text"placeholder="Email Address">
+        </div>
+        <div class="input-box">
+            <input type="number"placeholder="Mobile Number">
+            <input type="text"placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="your Message"></textarea>
+        <input type="submit" value="send Message" class="btn">
     </form>
 </section>
-<footer>
-    <div class="credit">created web dev <span>Chandan</span> | all rights reserverd</div>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Chandhu | All rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
 </footer>
 
 <!--Contact Section Ends-->
@@ -145,10 +159,12 @@
 
 
 
+<!--scroll reveel-->
+<script src="https://unpkg.com/scrollreveal"></script>
 
 
-
-
+<!--typed js-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 
 <!--custom js-->
