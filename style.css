@@ -266,7 +266,7 @@ width: 100%;
     text-align: center;
     line-height: 1.2;
     }
-@media (max-width: 767px) {
+@media (max-width: 787px) {
   .header {
     padding: 1.5rem 5%;
   }
@@ -288,7 +288,7 @@ width: 100%;
 }
 
 /* Tablet Screens */
-@media (min-width: 787px) and (max-width: 813px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .header {
     padding: 1.5rem 5%;
   }
